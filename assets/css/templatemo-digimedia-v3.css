@@ -510,12 +510,17 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-   color: #a4161a !important;
+   color: #a4161a;
+}
+
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active #servicesNavLink {
+   color: white !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav li a.active {
-   color: #a4161a !important;
+   color: #a4161a;
    opacity: 1;
 }
 
